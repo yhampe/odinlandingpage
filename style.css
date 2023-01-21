@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+body {
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+html {
+    min-height: 100%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: auto;
+    flex:1;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    font-size: 18px;
+    color:#F9FAF8;
+    font-weight: bold;
+    padding: 1em;
+    border: white;
+    border-style: solid;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-self: stretch;
+    background-color: #1f2937;
+    flex-flow: row wrap;
+    padding: 3em;
+    
+}
+.left-header {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+.right-header {
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    gap:10px;
+    padding: 10px;
+}
+.preview {
+    background-color: #1f2937;
+    gap:10px;
+    padding: 3em;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 20vh;
+}
+.leftpreview {
+    display: flex;
+    flex: 5;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    gap:10px
+    }
+.leftpreview div {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color:#F9FAF8;
+}
+.leftpreview p {
+    font-size: 18px;
+    color:#F9FAF8;
+}
+.imagecontainer {
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: 500px;
+    display: flex;
+    align-self: stretch;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    max-height: 100%;
+}
+.imagecontainer img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.information {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 7em;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 20vh;
+}
+.informationheader {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+.cards {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:10px;
+}
+.card {
+    flex-basis: 350px;
+}
+.cards img {
+    border: #3882F6;
+    border-radius: 5px;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    vertical-align: middle;
+}
+.cards div {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.quotesection {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e5e7e5EB;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 20vh;
+    font-weight: lighter;
+    font-style: italic  ;
+    font-size: 36px;
+    color: #1F2937;
+    padding: 5em;
+}
+
+.quotesection .text {
+    align-self: flex-end;
+}
+
+.signupsection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 20vh;
+    padding: 7em;
+}
+.signupbanner {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    margin: 50px;
+    border-radius: 5px;
+    width: 75%;
+    padding: 5em;
+    font-size: 18px;
+    color:#F9FAF8;
+}
+
+.signupbanner h1,.signupbanner p {
+    margin:0;
+}
+.footer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    align-self: stretch;
+    padding: 16px;
+    font-size: 18px;
+    color:#F9FAF8;
+}
+
+.leftpreview, .left-header {
+    margin-left: 10%;
+}
+
+.right-header, .imagecontainer {
+    margin-right: 10%;
+}
