@@ -9,16 +9,6 @@ body {
     margin: 0px;
     font-family: 'Roboto', sans-serif;
 }
-html {
-    min-height: 100%;
-}
-
-.content {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: auto;
-    flex:1;
-}
 
 button {
     background-color: #3882F6;
@@ -29,6 +19,14 @@ button {
     padding: 1em;
     border: white;
     border-style: solid;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: auto;
+    flex:1;
 }
 
 .header {
